@@ -1,7 +1,7 @@
 # CharacterLevel-RNN-Model-DinosaurNames
 
 
-#ProblemStatement
+# ProblemStatement
 
       Given a set of dinosaurs names create new names using character-level recurrent neural network.
 
