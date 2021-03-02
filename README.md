@@ -1,13 +1,13 @@
-# CharacterLevel-RNN-Model-DinosaurNames
+# CharacterLevel-RNN-Model-Indian Names
 
 
 # ProblemStatement
 
-      Given a set of dinosaurs names create new names using character-level recurrent neural network.
+      Given a set of Indian names create new names using character-level recurrent neural network.
 
 # Step 01 - Processing the data
 
-   * In this step we shall read the input words - dinosaurs names as each setence with '\n' char at the end of each name we also create our vocabulary characters list
+   * In this step we shall read the input words - Indian names as each setence with '\n' char at the end of each name we also create our vocabulary characters list
 
    * We need to maintain two hashtable char_to-index and index_to_char each of these are mappings of characters in vocabulary to an index and viceversa
    
@@ -37,7 +37,7 @@ Hence, given a range [-n, n] check if the value is within the range if:
     b) num < -n => num = -n
 ## 2.2 - Sampling
 
-Sampling the model is assuming that the model is trained and is ready to generate the next character and there by dinosaur name 
+Sampling the model is assuming that the model is trained and is ready to generate the next character and there by Indian name 
 
 when it is fed by an input character. Problem here would be only one name will be generated for one character. Here are the 
 
